@@ -1,5 +1,10 @@
-function saudacao(nome:string):string{
-return `Olá, ${nome}!`;
-}
+import { exercicio_01 } from "./exercicios/01_condicional/exercicio_01";
 
-console.log(saudacao("mundo"));
+const opcao:number = 1;
+
+switch(opcao) {
+    case 1:
+        exercicio_01();
+        break
+
+}

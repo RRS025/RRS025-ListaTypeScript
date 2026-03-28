@@ -12,6 +12,6 @@ function par_impar(entrada:number): any{
 }
 let entrada:number
 
-entrada = Number(prompt(`E vagabundo ta la! `))
+entrada = Number(prompt(`Informe um número inteiro:`))
 
 par_impar(entrada)
